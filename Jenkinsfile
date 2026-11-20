@@ -4,7 +4,7 @@ triggers {
 pollSCM('H/2 * * * *')
 }
 tools {
-nodejs 'NodeJS22'
+    nodejs 'NodeJS 22.15.1'
 }
 stages {
 stage('Checkout Code') {
